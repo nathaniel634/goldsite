@@ -6,6 +6,8 @@ __pycache__
 db.sqlite3
 media
 media/
+raw
+raw/
 
 # nixpacks.toml
 # Backup files # 
@@ -116,4 +118,3 @@ venv.bak/
 # Sublime Text # 
 *.tmlanguage.cache 
 *.tmPreferences.cache 
-raw
