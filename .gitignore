@@ -116,3 +116,4 @@ venv.bak/
 # Sublime Text # 
 *.tmlanguage.cache 
 *.tmPreferences.cache 
+raw
