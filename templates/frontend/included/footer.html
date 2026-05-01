@@ -1,1 +1,56 @@
 {% load static %}
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <!-- <h5 class="text-white">PMX Precious Metals</h5> -->
+                 <img src="{% static 'frontend/images/logos/pmx-logo2.png' %}" alt="pmx footer logo" width="200">
+                <p class="small opacity-75 mt-3">PMX Precious Metals delivers trusted purchasing, refining, minting, and assaying
+                    services worldwide, built on integrity, security, and uncompromising excellence.</p>
+                <div class="social-links mt-3">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                <h5>Quick Links</h5>
+                <a href="{% url 'frontend:home' %}">Home</a>
+                <a href="{% url 'frontend:about' %}">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Products</a>
+                <a href="#">News</a>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                <h5>Services</h5>
+                <a href="#">Gold Refining</a>
+                <a href="#">Silver Refining</a>
+                <a href="#">Palladium Processing</a>
+                <a href="#">Diamond Assaying</a>
+                <a href="#">Custom Solutions</a>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <h5>Contact Us</h5>
+                <p class="small mb-1"><i class="bi bi-geo-alt me-2"></i>Global Operations</p>
+                <p class="small mb-1"><i class="bi bi-envelope me-2"></i>info@pmxpreciousmetals.com</p>
+                <p class="small mb-3"><i class="bi bi-telephone me-2"></i>+971 4 XXX XXXX</p>
+                <form>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Subscribe to newsletter"
+                            style="background: var(--dark-secondary); border: none; color: white;">
+                        <button class="btn btn-gold" type="submit"><i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="mb-0">&copy; 2026 PMX Precious Metals. All Rights Reserved. | <a href="#"
+                    style="display: inline;">Privacy Policy</a> | <a href="#" style="display: inline;">Terms of
+                    Service</a></p>
+        </div>
+    </div>
+</footer>
