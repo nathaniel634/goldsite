@@ -1,3 +1,8 @@
 from django.shortcuts import render
 
-# Create your views here.
+def home_view(request):
+    context = {
+        "title": "Home Page",
+        "message": "Welcome to your Django site!"
+    }
+    return render(request, "frontend/home.html", context)
