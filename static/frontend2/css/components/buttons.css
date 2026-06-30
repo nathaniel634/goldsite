@@ -1,0 +1,130 @@
+/*==================================================
+PMX BUTTONS
+==================================================*/
+
+.pmx-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:.75rem;
+
+    padding:15px 34px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    font-size:.95rem;
+
+    transition:var(--pmx-transition);
+
+    cursor:pointer;
+
+}
+
+
+.pmx-btn i{
+
+    transition:.3s;
+
+}
+
+
+/*===============================================
+Primary
+===============================================*/
+
+.pmx-btn--primary{
+
+    background:var(--pmx-primary);
+
+    color:#fff;
+
+    box-shadow:var(--pmx-shadow-sm);
+
+}
+
+
+.pmx-btn--primary:hover{
+
+    background:var(--pmx-primary-dark);
+
+    color:#fff;
+
+    transform:translateY(-3px);
+
+    box-shadow:var(--pmx-shadow-md);
+
+}
+
+
+.pmx-btn--primary:hover i{
+
+    transform:translateX(5px);
+
+}
+
+
+/*===============================================
+Outline
+===============================================*/
+
+.pmx-btn--outline{
+
+    border:2px solid var(--pmx-primary);
+
+    color:var(--pmx-primary);
+
+}
+
+
+.pmx-btn--outline:hover{
+
+    background:var(--pmx-primary);
+
+    color:#fff;
+
+}
+
+
+/*===============================================
+Dark
+===============================================*/
+
+.pmx-btn--dark{
+
+    background:var(--pmx-dark);
+
+    color:#fff;
+
+}
+
+
+.pmx-btn--dark:hover{
+
+    background:var(--pmx-primary);
+
+    color:#fff;
+
+}
+
+
+/*===============================================
+Responsive
+===============================================*/
+
+@media(max-width:576px){
+
+    .pmx-btn{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+}

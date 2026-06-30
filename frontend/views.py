@@ -5,7 +5,7 @@ def home_view(request):
         "title": "Home Page",
         "message": "Welcome to your Django site!"
     }
-    return render(request, "frontend/home.html", context)
+    return render(request, "frontend2/home.html", context)
 
 def about_view(request):
     return render(request, 'frontend/about.html')
