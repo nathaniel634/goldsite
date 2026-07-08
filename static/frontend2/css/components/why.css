@@ -1,0 +1,73 @@
+/*==================================================
+WHY CHOOSE PMX
+==================================================*/
+
+.pmx-why-card{
+
+    background:#fff;
+
+    border-radius:var(--pmx-radius-md);
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    height:100%;
+
+    transition:var(--pmx-transition);
+
+    box-shadow:var(--pmx-shadow-sm);
+
+    border:1px solid transparent;
+
+}
+
+.pmx-why-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:var(--pmx-primary);
+
+    box-shadow:var(--pmx-shadow-lg);
+
+}
+
+.pmx-why-card__icon{
+
+    width:80px;
+
+    height:80px;
+
+    margin:auto auto 25px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(201,162,39,.12);
+
+}
+
+.pmx-why-card__icon i{
+
+    font-size:2rem;
+
+    color:var(--pmx-primary);
+
+}
+
+.pmx-why-card h4{
+
+    margin-bottom:15px;
+
+}
+
+.pmx-why-card p{
+
+    margin-bottom:0;
+
+}

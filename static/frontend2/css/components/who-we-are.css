@@ -1,0 +1,75 @@
+.text-golden {
+  color: var(--pmx-primary) !important;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  color: #fff;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--pmx-primary);
+  margin: 1rem auto 0;
+}
+
+.section-subtitle {
+  color: var(--pmx-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Features Grid */
+.feature-card {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+  border-top: 3px solid var(--pmx-primary);
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  color: var(--pmx-primary);
+  margin-bottom: 1.5rem;
+}
+
+.feature-card h4 {
+  margin-bottom: 1rem;
+  color: var(--dark-bg);
+}
+
+
+/* About Section */
+.about-section {
+  background: var(--pmx-dark);
+  color: var(--pmx-light);
+}
+
+.about-section .section-title::after {
+  background: var(--pmx-primary);
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+  font-size: 1.05rem;
+}
+

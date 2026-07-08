@@ -1,0 +1,47 @@
+/*==================================================
+SERVICES
+==================================================*/
+
+.pmx-service-card{
+
+    background:#fff;
+
+    padding:40px 35px;
+
+    border-radius:var(--pmx-radius-lg);
+
+    box-shadow:var(--pmx-shadow-sm);
+
+    text-align:center;
+
+    transition:var(--pmx-transition);
+
+    height:100%;
+
+}
+
+.pmx-service-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--pmx-shadow-lg);
+
+}
+
+.pmx-service-card i{
+
+    font-size:3rem;
+
+    color:var(--pmx-primary);
+
+    margin-bottom:20px;
+
+    display:block;
+
+}
+
+.pmx-service-card h4{
+
+    margin-bottom:18px;
+
+}

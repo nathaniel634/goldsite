@@ -1,0 +1,29 @@
+{% extends "./base.html" %}
+
+{% block title %}
+
+Our Products
+
+{% endblock %}
+
+{% block content %}
+
+{% include "./partials/page-header.html" with page_title="Products" %}
+
+{% include "./partials/product-categories.html" %}
+
+{% include "./partials/product-grid.html" %}
+
+
+
+{% include "./partials/product-process.html" %}
+
+{% include "./partials/why-buy.html" %}
+
+{% include "./partials/product-faq.html" %}
+
+{% include "./partials/cta.html" %}
+
+{% endblock %}
+
+<!-- {% include "./partials/product2.html" %} -->

@@ -1,0 +1,155 @@
+<!-- ==========================================
+NAVIGATION
+=========================================== -->
+{% load static %}
+<header class="pmx-header">
+
+    <nav id="pmxNavbar" class="pmx-navbar">
+
+        <div class="container">
+
+            <div class="pmx-navbar__wrapper">
+
+                <!-- Logo -->
+
+                <a href="{% url 'frontend:home' %}" class="pmx-navbar__logo">
+
+                    <img
+                        id="navbarLogo"
+                        src="{% static 'frontend2/images/logos/pmx-logo.png' %}"
+                        data-default="{% static 'frontend2/images/logos/pmx-logo.png' %}"
+                        data-scrolled="{% static 'frontend2/images/logos/pmx-logo-gold.png' %}"
+                        alt="PMX Precious Metals">
+
+                </a>
+
+                <!-- Desktop Menu -->
+
+                <ul class="pmx-navbar__menu">
+
+                    <li>
+                        <a href="{% url 'frontend:home' %}"
+                           class="{% if request.resolver_match.url_name == 'home' %}active{% endif %}">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'frontend:about' %}" class="{% if request.resolver_match.url_name == 'about' %}active{% endif %}">About</a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'frontend:products' %}" class="{% if request.resolver_match.url_name == 'products' %}active{% endif %}">Our Products</a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'frontend:services' %}" class="{% if request.resolver_match.url_name == 'services' %}active{% endif %}">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'frontend:market_insight' %}" class="{% if request.resolver_match.url_name == 'market_insight' %}active{% endif %}">Market Insights</a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'frontend:contact' %}" class="{% if request.resolver_match.url_name == 'contact' %}active{% endif %}">Contact</a>
+                    </li>
+
+                </ul>
+
+                <!-- CTA -->
+
+                <div class="pmx-navbar__actions">
+
+                    <a href="{% url 'frontend:contact' %}" class="pmx-btn pmx-btn--primary">
+
+                        Request Quote
+
+                        <i class="bi bi-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+                <!-- Mobile Button -->
+
+                <button
+
+                    class="pmx-navbar__toggle"
+
+                    data-bs-toggle="offcanvas"
+
+                    data-bs-target="#mobileMenu">
+
+                    <i class="bi bi-list"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<!-- ==========================================
+OFFCANVAS
+=========================================== -->
+
+<div class="offcanvas offcanvas-end"
+
+     tabindex="-1"
+
+     id="mobileMenu">
+
+    <div class="offcanvas-header">
+
+        <img
+
+            src="{% static 'frontend2/images/logos/pmx-logo-gold.png' %}"
+
+            style="height:55px;">
+
+        <button
+
+            class="btn-close"
+
+            data-bs-dismiss="offcanvas">
+
+        </button>
+
+    </div>
+
+    <div class="offcanvas-body">
+
+        <ul class="pmx-mobile-menu">
+
+            <li><a href="{% url 'frontend:home' %}">Home</a></li>
+
+            <li><a href="{% url 'frontend:about' %}">About</a></li>
+
+            <li><a href="{% url 'frontend:products' %}">Products</a></li>
+
+            <li><a href="{% url 'frontend:services' %}">Services</a></li>
+
+            <li><a href="{% url 'frontend:market_insight' %}">Market Insights</a></li>
+
+            <li><a href="{% url 'frontend:contact' %}">Contact</a></li>
+
+        </ul>
+
+        <div class="mt-4">
+
+            <a href="#" class="pmx-btn pmx-btn--primary w-100">
+
+                Request Quote
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,47 @@
+/*==================================================
+FAQ
+==================================================*/
+
+.accordion-item{
+
+    border:none;
+
+    border-radius:var(--pmx-radius-md);
+
+    overflow:hidden;
+
+    margin-bottom:20px;
+
+    box-shadow:var(--pmx-shadow-sm);
+
+}
+
+.accordion-button{
+
+    padding:22px;
+
+    font-weight:600;
+
+}
+
+.accordion-button:not(.collapsed){
+
+    background:var(--pmx-primary);
+
+    color:#fff;
+
+}
+
+.accordion-button:focus{
+
+    box-shadow:none;
+
+}
+
+.accordion-body{
+
+    padding:22px;
+
+    line-height:1.8;
+
+}

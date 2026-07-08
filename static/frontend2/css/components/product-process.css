@@ -1,0 +1,75 @@
+/*==================================================
+PRODUCT PROCESS
+==================================================*/
+
+.pmx-process-card{
+
+    position:relative;
+
+    background:#fff;
+
+    padding:45px 30px;
+
+    border-radius:var(--pmx-radius-lg);
+
+    text-align:center;
+
+    box-shadow:var(--pmx-shadow-sm);
+
+    transition:var(--pmx-transition);
+
+    height:100%;
+
+}
+
+.pmx-process-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--pmx-shadow-lg);
+
+}
+
+.pmx-process-card__number{
+
+    position:absolute;
+
+    top:20px;
+
+    right:20px;
+
+    font-size:2.5rem;
+
+    font-weight:700;
+
+    color:rgba(201,162,39,.15);
+
+}
+
+.pmx-process-card__icon{
+
+    width:80px;
+
+    height:80px;
+
+    margin:auto auto 25px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(201,162,39,.12);
+
+}
+
+.pmx-process-card__icon i{
+
+    font-size:2rem;
+
+    color:var(--pmx-primary);
+
+}

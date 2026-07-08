@@ -1,0 +1,107 @@
+{% load static %}
+
+<!-- Products Section with Background Carousel -->
+<section class="products-section-bg">
+    <!-- Background Image Carousel -->
+    <div id="productsBgCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1610375461491-d1424d6b5d76?auto=format&fit=crop&w=1920&q=80"
+                    class="d-block w-100" alt="Gold Refining">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&fit=crop&w=1920&q=80"
+                    class="d-block w-100" alt="Silver Products">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1600857345460-7c6c6e8c3c1e?auto=format&fit=crop&w=1920&q=80"
+                    class="d-block w-100" alt="Precious Metals">
+            </div>
+        </div>
+    </div>
+
+    <!-- Dark Overlay -->
+    <div class="products-overlay"></div>
+
+    <!-- Content -->
+    <div class="container position-relative" style="z-index: 2;">
+        <div class="section-title">
+            <span class="section-subtitle">Our Craftsmanship</span>
+            <h2>Featured Products</h2>
+        </div>
+
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="{% static 'frontend2/images/golds/gold-piles.png' %}" alt="">
+                    </div>
+                    <div class="card-body text-center mt-3">
+                        <h5 class="card-title">Gold Bullion Bars</h5>
+                        <p class="card-text small text-muted">Available in multiple weights, PMX Gold Bars offer exceptional purity, security, and liquidity. Every bar is precision-crafted and individually serialized for authenticity.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="{% static 'frontend2/images/golds/1kg-goldbar.png' %}" alt="">
+                    </div>
+                    <div class="card-body text-center mt-3">
+                        <h5 class="card-title">1kg Gold Bullion Bar</h5>
+                        <p class="card-text small text-muted">Our 1kg PMX Gold Bullion Bars are refined to 999.9 purity and manufactured to the highest international standards. Designed for serious investors seeking long-term wealth preservation and portfolio diversification.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="product-card">
+                    <div class="product-img"><i class="bi bi-heart-fill"></i></div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Heart Collection</h5>
+                        <p class="card-text small text-muted">The center of humanity, immortalized in precious metal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="product-card">
+                    <div class="product-img"><i class="bi bi-building"></i></div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Makkah Edition</h5>
+                        <p class="card-text small text-muted">Honoring the cradle of Islam with pure metal
+                            craftsmanship.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="product-card">
+                    <div class="product-img"><i class="bi bi-water"></i></div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sea Serenity</h5>
+                        <p class="card-text small text-muted">Embodying the calm yet powerful beauty of the ocean.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="product-card">
+                    <div class="product-img"><i class="bi bi-flower1"></i></div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">My Love Collection</h5>
+                        <p class="card-text small text-muted">Immortalizing fleeting beauty in gold and silver.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="text-center mt-4">
+            <a href="#" class="btn btn-outline-gold">Explore All Products</a>
+        </div> -->
+    </div>
+</section>
+<!-- Products Section end -->

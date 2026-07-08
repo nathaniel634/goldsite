@@ -1,0 +1,23 @@
+{% extends "./base.html" %}
+
+{% block title %}
+
+Market Insights
+
+{% endblock %}
+
+{% block content %}
+
+{% include "./partials/page-header.html" with page_title="Market Insights" %}
+
+{% include "./partials/market_insights/featured-article.html" %}
+
+{% include "./partials/market_insights/articles-grid.html" %}
+
+{% include "./partials/market_insights/newsletter.html" %}
+
+
+{% include "./partials/cta.html" %}
+
+{% endblock %}
+

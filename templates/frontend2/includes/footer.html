@@ -1,0 +1,156 @@
+<!-- ==================================================
+FOOTER
+================================================== -->
+{% load static %}
+<footer class="pmx-footer">
+
+    <div class="container">
+
+        <div class="row gy-5">
+
+            <!-- Company -->
+
+            <div class="col-lg-4">
+
+                <div class="pmx-footer__logo">
+
+                    <img src="{% static 'frontend2/images/logos/pmx-logo.png' %}"
+                         alt="PMX Precious Metals">
+
+                </div>
+
+                <p class="pmx-footer__text">
+
+                    PMX Precious Metals is committed to providing premium
+                    precious metals solutions backed by trust, integrity,
+                    and exceptional customer service.
+
+                </p>
+
+                <!-- <div class="pmx-footer__social">
+
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+
+                </div> -->
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div class="col-lg-2 col-md-6">
+
+                <h5>Quick Links</h5>
+
+                <ul class="pmx-footer__links">
+
+                    <li><a href="{% url 'frontend:home' %}">Home</a></li>
+
+                    <li><a href="{% url 'frontend:about' %}">About</a></li>
+
+                    <li><a href="{% url 'frontend:products' %}">Products</a></li>
+
+                    <li><a href="{% url 'frontend:services' %}">Services</a></li>
+
+                    <li><a href="{% url 'frontend:contact' %}">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Products -->
+
+            <div class="col-lg-2 col-md-6">
+
+                <h5>Products</h5>
+
+                <ul class="pmx-footer__links">
+
+                    <li><a href="{% url 'frontend:products' %}">Gold Bars</a></li>
+
+                    <li><a href="{% url 'frontend:products' %}">Gold Coins</a></li>
+
+                    <li><a href="{% url 'frontend:products' %}">Silver</a></li>
+
+                    <li><a href="{% url 'frontend:products' %}">Platinum</a></li>
+
+                    <li><a href="{% url 'frontend:products' %}">Bullion</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+
+            <div class="col-lg-4">
+
+                <h5>Contact Information</h5>
+
+                <ul class="pmx-footer__contact">
+
+                    <li>
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                        Dubai, UAE
+
+                    </li>
+
+                    <li>
+
+                        <i class="bi bi-envelope-fill"></i>
+
+                        info@pmxpreciousmetals.com
+
+                    </li>
+
+                    <li>
+
+                        <i class="bi bi-telephone-fill"></i>
+
+                        +1 800 000 0000
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <hr class="pmx-footer__divider">
+
+        <div class="pmx-footer__bottom">
+
+            <p>
+
+                © {% now "Y" %} PMX Precious Metals.
+                All Rights Reserved.
+
+            </p>
+
+            <div class="pmx-footer__legal">
+
+                <a href="#">Privacy Policy</a>
+
+                <a href="#">Terms & Conditions</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- Back To Top -->
+
+<button id="pmxBackToTop"
+        class="pmx-back-top">
+    <i class="bi bi-chevron-up"></i>
+</button>

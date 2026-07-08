@@ -1,0 +1,129 @@
+/*==================================================
+PMX UTILITIES
+==================================================*/
+
+.pmx-section{
+
+    padding:100px 0;
+
+}
+
+
+.pmx-section-sm{
+
+    padding:70px 0;
+
+}
+
+
+.pmx-bg-light{
+
+    background:var(--pmx-light);
+
+}
+
+
+.pmx-bg-dark{
+
+    background:var(--pmx-dark);
+
+}
+
+
+.pmx-text-gold{
+
+    color:var(--pmx-primary);
+
+}
+
+
+.pmx-rounded{
+
+    border-radius:var(--pmx-radius-lg);
+
+}
+
+
+.pmx-shadow{
+
+    box-shadow:var(--pmx-shadow-md);
+
+}
+
+
+.pmx-transition{
+
+    transition:var(--pmx-transition);
+
+}
+
+
+.pmx-section-heading{
+
+    margin-bottom:60px;
+
+}
+
+
+.pmx-section-heading__subtitle{
+
+    display:inline-block;
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+    color:var(--pmx-primary);
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+    margin-bottom:1rem;
+
+}
+
+
+.pmx-section-heading__title{
+
+    margin-bottom:1rem;
+
+}
+
+
+.pmx-section-heading__text{
+
+    max-width:650px;
+
+    margin:auto;
+
+}
+
+
+/*==================================================
+HELPERS
+==================================================*/
+
+.text-justify{
+
+    text-align:justify;
+
+}
+
+.cursor-pointer{
+
+    cursor:pointer;
+
+}
+
+.object-cover{
+
+    object-fit:cover;
+
+}
+
+.overflow-hidden{
+
+    overflow:hidden;
+
+}

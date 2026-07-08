@@ -1,0 +1,103 @@
+{% load static %}
+
+<!-- Accreditations Section -->
+<!-- ===== ACCREDITATIONS CAROUSEL (Replace the old grid section) ===== -->
+<section class="accreditations-section">
+    <div class="container">
+        <div class="section-title">
+            <span class="section-subtitle">Trust & Compliance</span>
+            <h2>Accreditations & Certifications</h2>
+        </div>
+        <p class="text-center mb-5" style="max-width: 800px; margin-left: auto; margin-right: auto; color: #555;">
+            Our reputation is founded upon adherence to internationally recognized standards of excellence. PMX Precious
+            Metals maintains a portfolio of certifications that reflect our unwavering commitment to quality, regulatory
+            compliance, and industry leadership.
+        </p>
+
+        <!-- Accreditations Carousel -->
+        <div id="accreditationsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-md-3 col-6">
+                            <div class="accreditation-logo">
+                                <img src="{% static 'frontend2/images/accreditation/Accre-02.png' %}"
+                                    alt="ISO 9001" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="accreditation-logo">
+                                <img src="{% static 'frontend2/images/accreditation/Accre-04.png' %}" alt="LBMA"
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="accreditation-logo">
+                                <img src="{% static 'frontend2/images/accreditation/Accre-05.png' %}"
+                                    alt="ISO 14001" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="accreditation-logo">
+                                <img src="{% static 'frontend2/images/accreditation/Accre-03.jpg' %}" alt="OECD"
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-md-3 col-6">
+                            <div class="accreditation-logo">
+                                <img src="{% static 'frontend2/images/accreditation/Accre-01.jpg' %}"
+                                    alt="RJC Certified" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="accreditation-logo">
+                                <img src="{% static 'frontend2/images/accreditation/Accre-07.png' %}"
+                                    alt="DMCC Approved" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="accreditation-logo">
+                                <img src="{% static 'frontend2/images/accreditation/Accre-06.png' %}"
+                                    alt="Good Delivery" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="accreditation-logo">
+                                <img src="{% static 'frontend2/images/accreditation/Accre-08.png' %}"
+                                    alt="SCS Global" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#accreditationsCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#accreditationsCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#accreditationsCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#accreditationsCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Accreditations Section end -->

@@ -1,0 +1,37 @@
+/*==================================================
+INDUSTRIES
+==================================================*/
+
+.pmx-industry{
+
+    text-align:center;
+
+    padding:45px;
+
+    border-radius:var(--pmx-radius-lg);
+
+    background:#fff;
+
+    box-shadow:var(--pmx-shadow-sm);
+
+    transition:var(--pmx-transition);
+
+}
+
+.pmx-industry:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--pmx-shadow-lg);
+
+}
+
+.pmx-industry i{
+
+    font-size:3rem;
+
+    color:var(--pmx-primary);
+
+    margin-bottom:20px;
+
+}

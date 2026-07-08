@@ -1,0 +1,110 @@
+/* Accreditations Section */
+/* ===== ACCREDITATIONS CAROUSEL STYLES ===== */
+.accreditations-section {
+  background: #f8f9fa;
+  padding: 4rem 0;
+}
+
+.accreditation-logo {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: var(--transition);
+  border: 2px solid transparent;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+}
+
+.accreditation-logo:hover {
+  border-color: var(--pmx-primary);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(197, 164, 85, 0.2);
+}
+
+.accreditation-logo img {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: var(--pmx-transition);
+}
+
+.accreditation-logo:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Carousel Customization */
+#accreditationsCarousel .carousel-control-prev,
+#accreditationsCarousel .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background: var(--pmx-primary);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+  transition: var(--transition);
+}
+
+#accreditationsCarousel .carousel-control-prev {
+  left: -60px;
+}
+
+#accreditationsCarousel .carousel-control-next {
+  right: -60px;
+}
+
+#accreditationsCarousel .carousel-control-prev:hover,
+#accreditationsCarousel .carousel-control-next:hover {
+  background: var(--pmx-dark);
+}
+
+#accreditationsCarousel .carousel-control-prev-icon,
+#accreditationsCarousel .carousel-control-next-icon {
+  background-color: white;
+  background-size: 50%;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+#accreditationsCarousel .carousel-indicators {
+  bottom: -40px;
+}
+
+#accreditationsCarousel .carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--gold-primary);
+  border: none;
+  margin: 0 5px;
+  opacity: 0.5;
+}
+
+#accreditationsCarousel .carousel-indicators button.active {
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  #accreditationsCarousel .carousel-control-prev {
+    left: 10px;
+  }
+
+  #accreditationsCarousel .carousel-control-next {
+    right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .accreditation-logo {
+    padding: 1.5rem 1rem;
+    min-height: 120px;
+  }
+}

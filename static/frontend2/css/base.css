@@ -1,0 +1,224 @@
+/*==================================================
+PMX BASE STYLES
+==================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*==================================================
+ROOT VARIABLES
+==================================================*/
+
+:root{
+
+    /* Brand Colors */
+
+    --pmx-primary:#C9A227;
+    --pmx-primary-dark:#A88417;
+    --pmx-primary-light:#E8CF77;
+
+    --pmx-dark:#151515;
+    --pmx-dark-soft:#2B2B2B;
+
+    --pmx-white:#FFFFFF;
+
+    --pmx-light:#F8F8F8;
+
+    --pmx-border:#E8E8E8;
+
+    --pmx-text:#666666;
+
+    --pmx-heading:#222222;
+
+    --pmx-success:#198754;
+    --pmx-danger:#dc3545;
+
+    /* Typography */
+
+    --pmx-heading-font:'Playfair Display', serif;
+
+    --pmx-body-font:'Poppins', sans-serif;
+
+    /* Radius */
+
+    --pmx-radius-sm:8px;
+    --pmx-radius-md:16px;
+    --pmx-radius-lg:24px;
+    --pmx-radius-pill:999px;
+
+    /* Shadows */
+
+    --pmx-shadow-sm:0 4px 12px rgba(0,0,0,.05);
+
+    --pmx-shadow-md:0 12px 30px rgba(0,0,0,.08);
+
+    --pmx-shadow-lg:0 25px 60px rgba(0,0,0,.12);
+
+    /* Transition */
+
+    --pmx-transition:all .35s ease;
+
+    /* Spacing */
+
+    --pmx-space-1:.5rem;
+    --pmx-space-2:1rem;
+    --pmx-space-3:1.5rem;
+    --pmx-space-4:2rem;
+    --pmx-space-5:3rem;
+    --pmx-space-6:4rem;
+    --pmx-space-7:5rem;
+    --pmx-space-8:6rem;
+
+}
+
+
+/*==================================================
+RESET
+==================================================*/
+
+*,
+*::before,
+*::after{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+body{
+
+    font-family:var(--pmx-body-font);
+
+    color:var(--pmx-text);
+
+    background:var(--pmx-white);
+
+    line-height:1.75;
+
+    overflow-x:hidden;
+
+}
+
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+
+a{
+
+    text-decoration:none;
+
+    transition:var(--pmx-transition);
+
+}
+
+
+button{
+
+    border:none;
+
+    outline:none;
+
+    background:none;
+
+}
+
+
+input,
+textarea,
+select{
+
+    outline:none;
+
+    border:none;
+
+    font-family:inherit;
+
+}
+
+
+ul{
+
+    list-style:none;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+
+section{
+
+    padding:100px 0;
+
+}
+
+
+/*==================================================
+TYPOGRAPHY
+==================================================*/
+
+h1,h2,h3,h4,h5,h6{
+
+    font-family:var(--pmx-heading-font);
+
+    color:var(--pmx-heading);
+
+    line-height:1.2;
+
+    font-weight:700;
+
+}
+
+h1{
+
+    font-size:clamp(2.8rem,5vw,4.8rem);
+
+}
+
+h2{
+
+    font-size:clamp(2rem,4vw,3rem);
+
+}
+
+h3{
+
+    font-size:1.6rem;
+
+}
+
+p{
+
+    margin-bottom:1rem;
+
+}
+
+
+/*==================================================
+SELECTION
+==================================================*/
+
+::selection{
+
+    background:var(--pmx-primary);
+
+    color:#fff;
+
+}

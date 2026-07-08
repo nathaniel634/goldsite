@@ -1,0 +1,73 @@
+{% extends './base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- ===== ABOUT HERO ===== -->
+<section class="about-page-hero pt-md-5">
+    <div class="container">
+        <h1>About PMX Precious Metals</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'frontend:home' %}">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About Us</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+<!-- ===== ABOUT HERO END ===== -->
+
+<!-- ===== STORY BEHIND THE NAME ===== -->
+<section class="story-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <span class="section-subtitle">Our Heritage</span>
+                <h2 class="section-title text-start">Story Behind The Name – PMX</h2>
+                <div class="story-content">
+                    <p>PMX Precious Metals is a revolutionary idea born of visionary leadership and decades of unmatched
+                        insight in the precious metals industry. The name <span class="story-highlight">PMX</span>
+                        symbolizes precision, mastery, and excellence — core values that define every aspect of our
+                        operations.</p>
+                    <p><strong>P</strong> stands for <em>Precision</em> — reflecting our commitment to exacting
+                        standards in refining, assaying, and minting.</p>
+                    <p><strong>M</strong> represents <em>Mastery</em> — honoring the deep expertise and technical
+                        mastery our team brings to every project.</p>
+                    <p><strong>X</strong> signifies <em>Excellence</em> — our unwavering pursuit of the highest quality
+                        in every product and service we deliver.</p>
+                    <p>Together, PMX embodies our promise: to be the global benchmark for integrity, innovation, and
+                        value in precious metals refining.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="text-center">
+                    <div class="pmx-identity-card">
+                        <i class="bi bi-gem"></i>
+                        <h4>PMX Identity</h4>
+                        <p class="mb-0">"Precision. Mastery. Excellence."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ===== STORY BEHIND THE NAME END ===== -->
+
+
+<!-- ===== CORPORATE VIDEO ===== -->
+<section class="about-video-section">
+    <div class="container">
+        <div class="section-title">
+            <span class="section-subtitle">See Us In Action</span>
+            <h2>PMX Precious Metals - Corporate Overview</h2>
+        </div>
+        <div class="about-video-wrapper">
+            <div class="about-video-placeholder">
+                <i class="bi bi-play-circle-fill"></i>
+                <p class="mt-3 mb-0">Watch Our Corporate Video</p>
+                <small style="opacity: 0.7;">(Replace with YouTube embed)</small>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ===== CORPORATE VIDEO ===== -->
+{% endblock %}

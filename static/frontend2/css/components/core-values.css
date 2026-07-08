@@ -1,0 +1,29 @@
+/*==================================================
+CORE VALUES
+==================================================*/
+
+.pmx-value{
+
+    text-align:center;
+
+    padding:35px 25px;
+
+}
+
+.pmx-value i{
+
+    font-size:3rem;
+
+    color:var(--pmx-primary);
+
+    margin-bottom:20px;
+
+    display:block;
+
+}
+
+.pmx-value h4{
+
+    margin-bottom:15px;
+
+}

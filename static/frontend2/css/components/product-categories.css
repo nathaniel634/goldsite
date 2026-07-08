@@ -1,0 +1,53 @@
+/*==================================================
+PRODUCT CATEGORIES
+==================================================*/
+
+.pmx-category-card{
+
+    background:#fff;
+
+    overflow:hidden;
+
+    border-radius:var(--pmx-radius-lg);
+
+    transition:var(--pmx-transition);
+
+    box-shadow:var(--pmx-shadow-sm);
+
+    height:100%;
+
+}
+
+.pmx-category-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--pmx-shadow-lg);
+
+}
+
+.pmx-category-card img{
+
+    width:100%;
+
+    aspect-ratio:4/3;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.pmx-category-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.pmx-category-card__body{
+
+    padding:30px;
+
+    text-align:center;
+
+}

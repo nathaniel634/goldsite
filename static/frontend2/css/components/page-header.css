@@ -1,0 +1,83 @@
+/*==================================================
+PAGE HEADER
+==================================================*/
+
+.pmx-page-header{
+
+    position:relative;
+
+    padding:170px 0 90px;
+
+    background:url("/static/frontend2/images/banners/banner-1.jpg") center/cover;
+
+    overflow:hidden;
+
+}
+
+.pmx-page-header__overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+
+        rgba(0,0,0,.75),
+
+        rgba(0,0,0,.65)
+
+    );
+
+}
+
+.pmx-page-header .container{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.pmx-page-header__content{
+
+    text-align:center;
+
+    color:#fff;
+
+}
+
+.pmx-page-header h1{
+
+    color:#fff;
+
+    margin-bottom:15px;
+
+}
+
+.breadcrumb{
+
+    margin:0;
+
+    justify-content:center;
+
+}
+
+.breadcrumb-item,
+
+.breadcrumb-item a{
+
+    color:#ddd;
+
+}
+
+.breadcrumb-item.active{
+
+    color:var(--pmx-primary);
+
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+
+    color:#aaa;
+
+}

@@ -1,0 +1,63 @@
+/*==================================================
+MISSION & VISION
+==================================================*/
+
+.pmx-info-card{
+
+    background:#fff;
+
+    padding:45px;
+
+    border-radius:var(--pmx-radius-lg);
+
+    text-align:center;
+
+    height:100%;
+
+    transition:var(--pmx-transition);
+
+    box-shadow:var(--pmx-shadow-sm);
+
+}
+
+.pmx-info-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--pmx-shadow-lg);
+
+}
+
+.pmx-info-card__icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto auto 25px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(201,162,39,.1);
+
+}
+
+.pmx-info-card__icon i{
+
+    font-size:2rem;
+
+    color:var(--pmx-primary);
+
+}
+
+.pmx-info-card h3{
+
+    margin-bottom:20px;
+
+}

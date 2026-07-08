@@ -1,0 +1,125 @@
+/* Products Section */
+/* ===== PRODUCTS SECTION WITH BACKGROUND CAROUSEL ===== */
+.products-section-bg {
+  position: relative;
+  padding: 5rem 0;
+  overflow: hidden;
+}
+
+/* Background Carousel */
+#productsBgCarousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+#productsBgCarousel .carousel-inner {
+  height: 100%;
+}
+
+#productsBgCarousel .carousel-item {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+#productsBgCarousel .carousel-item.active {
+  opacity: 1;
+}
+
+#productsBgCarousel img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Dark Overlay for Readability */
+.products-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(26, 26, 26, 0.85);
+  z-index: 1;
+}
+
+/* Fade Transition */
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev {
+  left: 0;
+  z-index: 0;
+}
+
+/* Product Cards on Top */
+.products-section-bg .product-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(197, 164, 85, 0.2);
+}
+
+.products-section-bg .section-title h2,
+.products-section-bg .section-subtitle {
+  color: var(--pmx-light);
+}
+
+.products-section-bg .section-title::after {
+  background: var(--pmx-primary);
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .products-section-bg {
+    padding: 3.5rem 0;
+  }
+}
+
+.product-card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: var(--pmx-transition);
+  margin-bottom: 2rem;
+  background: white;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+  height: 220px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--pmx-primary);
+  font-size: 3rem;
+}
+
+.product-card .card-body {
+  padding: 1.5rem;
+}
+
+.product-card .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}

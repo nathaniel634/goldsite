@@ -1,0 +1,69 @@
+/*==================================================
+PRODUCT GRID
+==================================================*/
+
+.pmx-product{
+
+    position:relative;
+
+    background:#fff;
+
+    overflow:hidden;
+
+    border-radius:var(--pmx-radius-lg);
+
+    transition:var(--pmx-transition);
+
+    box-shadow:var(--pmx-shadow-sm);
+
+    height:100%;
+
+}
+
+.pmx-product:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--pmx-shadow-lg);
+
+}
+
+.pmx-product__badge{
+
+    position:absolute;
+
+    top:15px;
+
+    left:15px;
+
+    background:var(--pmx-primary);
+
+    color:#fff;
+
+    padding:8px 14px;
+
+    border-radius:50px;
+
+    font-size:.8rem;
+
+    z-index:5;
+
+}
+
+.pmx-product img{
+
+    width:100%;
+
+    aspect-ratio:4/3;
+
+    object-fit:cover;
+
+}
+
+.pmx-product__body{
+
+    padding:30px;
+
+    text-align:center;
+
+}

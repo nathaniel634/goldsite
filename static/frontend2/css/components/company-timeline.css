@@ -1,0 +1,47 @@
+.pmx-timeline__wrapper{
+
+    border-left:3px solid var(--pmx-primary);
+
+    padding-left:40px;
+
+}
+
+.pmx-timeline__item{
+
+    margin-bottom:45px;
+
+    position:relative;
+
+}
+
+.pmx-timeline__item::before{
+
+    content:"";
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:50%;
+
+    background:var(--pmx-primary);
+
+    position:absolute;
+
+    left:-50px;
+
+    top:8px;
+
+}
+
+.pmx-timeline__item span{
+
+    color:var(--pmx-primary);
+
+    font-weight:700;
+
+    display:block;
+
+    margin-bottom:8px;
+
+}

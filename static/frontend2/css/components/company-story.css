@@ -1,0 +1,19 @@
+/*==================================================
+COMPANY STORY
+==================================================*/
+
+.pmx-company img{
+
+    border-radius:var(--pmx-radius-lg);
+
+    transition:var(--pmx-transition);
+
+    box-shadow:var(--pmx-shadow-lg);
+
+}
+
+.pmx-company img:hover{
+
+    transform:scale(1.02);
+
+}

@@ -1,0 +1,237 @@
+/*==================================================
+FOOTER
+==================================================*/
+
+.pmx-footer{
+
+    background:#111;
+
+    color:#cfcfcf;
+
+    padding:90px 0 25px;
+
+}
+
+.pmx-footer h5{
+
+    color:#fff;
+
+    margin-bottom:25px;
+
+}
+
+.pmx-footer__logo img{
+
+    height:75px;
+
+    margin-bottom:25px;
+
+}
+
+.pmx-footer__text{
+
+    margin-bottom:25px;
+
+}
+
+.pmx-footer__social{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.pmx-footer__social a{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:#222;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#fff;
+
+    transition:var(--pmx-transition);
+
+}
+
+.pmx-footer__social a:hover{
+
+    background:var(--pmx-primary);
+
+}
+
+.pmx-footer__links{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+}
+
+.pmx-footer__links a{
+
+    color:#cfcfcf;
+
+}
+
+.pmx-footer__links a:hover{
+
+    color:var(--pmx-primary);
+
+    padding-left:6px;
+
+}
+
+.pmx-footer__contact{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.pmx-footer__contact li{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.pmx-footer__contact i{
+
+    color:var(--pmx-primary);
+
+}
+
+.pmx-footer__divider{
+
+    margin:50px 0 25px;
+
+    border-color:#2d2d2d;
+
+}
+
+.pmx-footer__bottom{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.pmx-footer__bottom p{
+
+    margin:0;
+
+}
+
+.pmx-footer__legal{
+
+    display:flex;
+
+    gap:25px;
+
+}
+
+.pmx-footer__legal a{
+
+    color:#cfcfcf;
+
+}
+
+.pmx-footer__legal a:hover{
+
+    color:var(--pmx-primary);
+
+}
+
+/*=========================================
+BACK TO TOP
+=========================================*/
+
+.pmx-back-top{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:50%;
+
+    background:var(--pmx-primary);
+
+    color:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    cursor:pointer;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(20px);
+
+    transition:var(--pmx-transition);
+
+    z-index:999;
+
+}
+
+.pmx-back-top.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+.pmx-back-top:hover{
+
+    background:var(--pmx-primary-dark);
+
+}
+
+@media(max-width:768px){
+
+    .pmx-footer__bottom{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+}

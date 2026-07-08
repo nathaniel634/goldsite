@@ -1,0 +1,83 @@
+/*==================================================
+PMX Precious Metals
+Main Stylesheet
+Version: 1.0
+==================================================*/
+
+/* Base */
+@import url("base.css");
+@import url("utilities.css");
+
+/* Components */
+@import url("components/buttons.css");
+@import url("components/navbar.css");
+@import url("components/footer.css");
+/* @import url("components/cards.css"); */
+/* @import url("components/forms.css"); */
+@import url("components/hero.css");
+@import url("components/about.css");
+@import url("components/why.css");
+@import url("components/products.css");
+@import url("components/market.css");
+@import url("components/cta.css");
+@import url("components/page-header.css");
+@import url("components/company-story.css");
+@import url("components/mission.css");
+@import url("components/core-values.css");
+@import url("components/company-timeline.css");
+@import url("components/product-categories.css");
+@import url("components/product-process.css");
+@import url("components/product-grid.css");
+@import url("components/faq.css");
+@import url("components/service-overview.css");
+@import url("components/services.css");
+@import url("components/industries.css");
+@import url("components/contact.css");
+@import url("components/articles.css");
+@import url("components/who-we-are.css");
+@import url("components/accreditation.css");
+@import url("components/product2.css");
+
+/* Pages */
+/* @import url("pages/home.css");
+@import url("pages/about.css");
+@import url("pages/services.css");
+@import url("pages/products.css");
+@import url("pages/contact.css"); */
+
+/*==============================================
+Reveal Animation
+==============================================*/
+
+.pmx-reveal{
+
+    opacity:0;
+
+    transform:translateY(50px);
+
+    transition:all .8s ease;
+
+}
+
+.pmx-reveal.active{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+
+.pmx-newsletter-box{
+
+    background:#fff;
+
+    padding:60px;
+
+    text-align:center;
+
+    border-radius:var(--pmx-radius-lg);
+
+    box-shadow:var(--pmx-shadow-sm);
+
+}

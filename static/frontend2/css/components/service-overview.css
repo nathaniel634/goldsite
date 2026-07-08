@@ -1,0 +1,19 @@
+/*==================================================
+SERVICE OVERVIEW
+==================================================*/
+
+.pmx-service-overview img{
+
+    border-radius:var(--pmx-radius-lg);
+
+    transition:var(--pmx-transition);
+
+    box-shadow:var(--pmx-shadow-lg);
+
+}
+
+.pmx-service-overview img:hover{
+
+    transform:scale(1.02);
+
+}
