@@ -6,7 +6,7 @@
       "use": "@vercel/python"
     }
   ],
-  "buildCommand": "bash build_files.sh",
+  "buildCommand": "python manage.py collectstatic --noinput",
   "routes": [
     {
       "src": "/static/(.*)",
